@@ -24,14 +24,12 @@ Follow these steps to set up and run the project locally.
 ### Installation
 
 1. **Clone the repository**:
-
    ```bash
    git clone https://github.com/your-username/blog-post-app.git
-   cd blog-post-app 
-2. Install the required dependencies
-
+   cd BlogPost 
+2. **Install the required dependencies**
    ```bash
    npm install
-3. Running the Application
+3. **Running the Application**
    ```bash
    npm run dev
