@@ -14,7 +14,7 @@ const Home = () => {
         const fetchNews = async () => {
             try {
                 const response = await axios.get(
-                    `https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=75ff1eb7796245eb8f946618b32607cf`
+                    "https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=75ff1eb7796245eb8f946618b32607cf"
                 );
                 setPosts(response.data.articles);
                 setLoading(false);
